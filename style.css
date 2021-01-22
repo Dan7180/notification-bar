@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* style card */
+.notification {
+	position: absolute;
+	top: 2rem;
+	right: 0;
+	background: rgb(255, 255, 255);
+	border: 1px solid rgba(0, 0, 0, 0.151);
+	box-shadow: 2px 2px 4px 0 rgba(226, 226, 226, 0.288);
+	border-radius: 3px;
+	padding: 2rem 4rem 2rem 2rem;
+}
+
+.notification:after {
+	content: '';
+	width: 5px;
+	height: 100%;
+	background-color: rgb(139, 224, 11);
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-radius: 2px 0 0 2px;
+}
+
+.notification p {
+	margin: 0 0 1rem 0;
+}
+
+.notification p:last-child {
+	margin: 0;
+	color: rgba(0, 0, 0, 0.644);
+}
+
+/* aniamtion */
